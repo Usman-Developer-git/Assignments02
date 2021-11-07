@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myForm {
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+
+        .h1 {
+            text-align: center;
+            position: relative;
+            top: 20px;
+        }
+
+        .myDiv {
+            width: 500px;
+            height: 600px;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="myDiv">
+            <h1 class="h1">Admisstion Form</h1>
+            <form class="myForm">
+                <label for="name">Username</label>
+                <input type="text" name="username" id="name" placeholder="Enter your username"> <br> <br>
+
+                <label for="PS">Password</label>
+                <input type="password" name="password" id="PS" placeholder="Enter your Password"><br> <br>
+
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="Email" placeholder="Enter your email"><br><br>
+
+                <label for="num">Contact No</label>
+                <input type="number" name="contact" id="num" placeholder="Enter your contact no"><br><br>
+
+                <label for="DOB">DOB</label>
+                <input type="date" name="DOB" id="DOB" placeholder="Enter your DOB"><br><br>
+
+                
+                <p>Please Select Your Gender</p>
+                <input checked type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female <br><br>
+                
+                <textarea cols="30" rows="6" placeholder="Please enter your Comments "></textarea>
+                
+                <p>Please read all the instructions carefully</p>
+                <input type="checkbox"> Yes, I read it all. <br><br>
+
+                <button>Submit Form</button>
+
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>

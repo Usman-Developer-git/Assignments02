@@ -1,0 +1,42 @@
+
+.main_div{
+    text-align: center;
+}
+
+.div_1{
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    border: solid 1px black;
+    position :absolute;
+    top: 0px;
+    bottom: 0px;
+
+}
+.div_2{
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    border: solid 1px black;
+    position :absolute;
+    right: 0px;
+    top: 0px;
+}
+.div_3{
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    border: solid 1px black;
+    position :absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.div_4{
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    border: solid 1px black;
+    position :absolute;
+    right: 0px;
+    bottom: 0px;
+}
